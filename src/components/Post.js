@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import {BrowserRouter, Link} from 'react-router-dom'
 import { posts } from '../posts/posts';
-import parse from 'html-react-parser'
+
 import SinglePost from './SinglePost';
 import { Router } from 'react-router';
 

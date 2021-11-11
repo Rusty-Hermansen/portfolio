@@ -1,4 +1,7 @@
-export const nodeexpressapi = {img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+export const nodeexpressapi = {
+    id: 4,
+    img: "https://logodix.com/logo/1764835.png",
+    alt: "node",
 title: 'Writing an API with node and express',
     body: `<html>
 

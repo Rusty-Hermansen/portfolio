@@ -1,5 +1,7 @@
 export const docker = {
-    img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+    id: 3,
+    img: "https://logodix.com/logo/826618.png",
+    alt: "docker",
     title: 'Docker',
     body: `<html>
 

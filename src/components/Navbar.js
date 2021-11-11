@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import {SocialIcon} from "react-social-icons"
+
 const Navbar = () => {
 
     return(

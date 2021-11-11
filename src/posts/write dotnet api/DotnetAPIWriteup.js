@@ -1,5 +1,7 @@
 export const dotnetapi = {
-    img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+    id: 7,
+    img: "https://www.ynvtechnologies.com/img/solutions/dotnet.png",
+    alt: "dotnet", 
     title: 'Writing an API in dotnet',
     body: `<html>
 

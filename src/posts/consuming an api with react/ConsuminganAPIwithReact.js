@@ -1,5 +1,7 @@
+
 export const reactapi = {
-    img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+    id: 1,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
     title: 'Consuming an API with react',
     body: `<html>
 

@@ -1,6 +1,9 @@
-export const site = {   img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
-title: 'Portfolio site',
-body: `<html>
+export const site = {
+    id: 9,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+    alt: "react",
+    title: 'Portfolio site',
+    body: `<html>
 
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">

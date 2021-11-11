@@ -1,17 +1,20 @@
+import { post } from "jquery";
 import { useLocation } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import {posts} from '../posts/posts'
+import parse from 'html-react-parser'
 
 
 const SinglePost = () => {
-    const {search} = useLocation();
-    const params = new URLSearchParams(search)
-    const index= params.get('index');
+    const params = useParams();
 
-    console.log(index)
+    const post = posts[params.id]
+    console.log(post)
     return(
         <div>
-            <h1>stuff</h1>
-            {index}
+            <h1>{post.title}</h1>
+            {parse(post.body)}
+          
         </div>
     )
 }

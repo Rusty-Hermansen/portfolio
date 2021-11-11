@@ -1,6 +1,8 @@
 
 export const consumeapidotnet = {
-    img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+    id: 8,
+    img: "https://www.ynvtechnologies.com/img/solutions/dotnet.png",
+    alt: "dotnet",
     title: 'Consuming an api with dotnet, refit, and blazor',
     body: `<html>
 
@@ -229,7 +231,7 @@ export const consumeapidotnet = {
             specifications. . </span></p>
     <p class="c0"><span
             style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 304.00px;"><img
-                alt="" src="images/image1.png"
+                alt="" src="./images/image1.png"
                 style="width: 624.00px; height: 304.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title=""></span></p>
 </body>

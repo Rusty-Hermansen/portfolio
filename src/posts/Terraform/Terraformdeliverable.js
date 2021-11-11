@@ -1,5 +1,7 @@
 export const terraform = {
-    img: "https://developers.hp.com/sites/default/files/kubernetes-logo_0.jpg",
+    id: 6,
+    img: "https://logodix.com/logo/1686026.png",
+    alt: "terraform",
     title: 'Terraform',
     body: `<html>
 
