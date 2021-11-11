@@ -23,9 +23,9 @@ const Navbar = () => {
                         About
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3 px-3 my-6">
-                    <SocialIcon url="https://www.linkedin.com/in/rusty-hermansen/" className="mr-4" target='_blank' fgColor="#fff" style={{height: 35, width:35}} />
-                    <SocialIcon url="https://github.com/rusty-hermansen" className="mr-4" target='_blank' fgColor="#fff" style={{height: 35, width:35}} />
+                <div className="inline-flex py-2 px-3 my-6">
+                    <SocialIcon url="https://www.linkedin.com/in/rusty-hermansen/" className="mr-4" target='_blank' fgColor="#fff" style={{height: 45, width:45}} />
+                    <SocialIcon url="https://github.com/rusty-hermansen" className="mr-4" target='_blank' fgColor="#fff" style={{height: 45, width:45}} />
                 </div>
             </div>
         </header>
