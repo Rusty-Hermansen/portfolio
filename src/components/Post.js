@@ -8,9 +8,9 @@ import { Router } from 'react-router';
 const Post = () =>{
    
     return(
-        <main>
-            <section>
-                <h1 className="text-5xl flex justify-center mb-12">Portfolio Posts</h1>
+        <main className="bg-black min-h-screen p-12"> 
+            <section className = "container mx-auto">
+                <h1 className="text-5xl flex justify-center mb-12 text-white">Portfolio Posts</h1>
                 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
              
@@ -18,7 +18,7 @@ const Post = () =>{
                        <article>
                         <Link to={"/singlepost/" + index} key={index} state={{body: post.body}}>
                          <span className="block h-64 relative rouded shadow leading-snug bg-white border-l-8 border-black" key={index}>
-                             <img src={post.img} alt={post.alt} className="w-full h-full object-cover absolute"/>
+                             <img src={post.img} alt={post.alt} className="w-full h-full object-contain absolute"/>
                              <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
                                 <h3 className="text-white text-lg font-blog px-3 py-4 bg-black text-white bg-opacity-75 rounded" >{post.title} </h3>
                              </span>

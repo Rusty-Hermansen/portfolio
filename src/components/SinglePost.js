@@ -11,11 +11,13 @@ const SinglePost = () => {
     const post = posts[params.id]
     console.log(post)
     return(
-        <div>
-            <h1>{post.title}</h1>
+        // <div className="justify-center bg-black p-12">
+        <section className="justify-center min-h-screen pt-12 lg:pt-36 px-8 bg-black bg-opacity-75">
+            <h1 className="text-5xl flex justify-center mb-12 text-white">{post.title}</h1>
             {parse(post.body)}
           
-        </div>
+         {/* </div> */}
+        </section>
     )
 }
 
