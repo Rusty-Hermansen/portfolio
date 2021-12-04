@@ -13,7 +13,7 @@ build:
     - master
 script:
   - npm install
-  - CI= false npm run-script build
+  - CI=false npm run-script build
 artifacts:
   paths:
   - build
@@ -24,7 +24,7 @@ deploy:
   only:
     - master
   script:
-  - pip install awscli
-  - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
-  - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
-  - aws s3 sync ./build/ $AWS_S3_URL --delete
+    - pip install awscli
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws s3 sync ./build/ $AWS_S3_URL --delete
