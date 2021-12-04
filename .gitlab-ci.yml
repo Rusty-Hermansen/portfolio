@@ -11,13 +11,13 @@ build:
   stage: build
   only:
     - master
-script:
-  - npm install
-  - CI=false npm run-script build
-artifacts:
-  paths:
-  - build
-  expire_in: 1 hour
+  script:
+    - npm install
+    - CI=false npm run-script build
+  artifacts:
+    paths:
+      - build
+    expire_in: 1 hour
 deploy:
   image: python:latest
   stage: deploy
