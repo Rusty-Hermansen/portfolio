@@ -9,7 +9,7 @@ const Home = () =>{
                     Hi, I'm Rusty!
                 </h1>
                 <p className="text-yellow-600">I'm a software engineering major at Snow College with an interest in DevOps 
-                and a desire to build excellent software.</p>
+                and a desire to build excellent software. I'm excited to get out in the field and start learning and growing! </p>
                </div>
                
                 
