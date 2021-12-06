@@ -2,21 +2,22 @@ variables:
   AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
   AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
   AWS_S3_URL: $AWS_S3_URL
+
 stages:
   - build
   - deploy
 
 build:
-  image: node:12.14.0-slim
+  image: node:latest
   stage: build
   only:
     - master
   script:
     - npm install
-    - CI=false npm run-script build
+    - CI=false npm build
   artifacts:
     paths:
-      - build
+    - build
     expire_in: 1 hour
 deploy:
   image: python:latest
