@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react';
 import { Link} from 'react-router-dom'
 import apiService from '../Services/apiService';
 import { posts } from '../posts/posts';
+import image from "../background.jpg"
 
 /////////////////////This piece handles RETRIEVAL FROM DATABASE////////////////////////
 // const Post = () =>{
@@ -48,8 +49,9 @@ const Post = () =>{
     }, [])
    
     return(
-        <main className="bg-black min-h-screen p-12"> 
-            <section className = "container mx-auto">
+        <div className="min-h-screen p-12 bg-fixed bg-cover bg-black bg-opacity-75" style={{backgroundImage: `url(${image})`}}> 
+
+            <section className = "relative container mx-auto ">
                 <h1 className="text-5xl flex justify-center mb-12 text-white">Portfolio Posts</h1>
                 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
@@ -68,7 +70,7 @@ const Post = () =>{
                     }
                 </div>
             </section>
-        </main>
+        </div>
     )
 }
 export default Post;
