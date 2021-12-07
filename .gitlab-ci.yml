@@ -14,7 +14,7 @@ build:
     - main
   script:
     - npm install
-    - CI=false npm run build
+    - CI=false react-scripts build
   artifacts:
     paths:
     - build
