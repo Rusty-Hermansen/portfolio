@@ -22,6 +22,9 @@ build:
 deploy:
   image: python:latest
   stage: deploy
+  artifacts:
+      paths:
+      - build
   # only:
   #   - main
   script:
